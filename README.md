@@ -21,13 +21,13 @@ bllossom 의 특징들:
 * [Install](https://github.com/teddysum/bllossom/#install)
 
 ### Version Description
-| Version| Release      | Contents           | License   | 연구목적 허용   | 비고     |
-|:------:|:------------:|--------------------|:------:|:--------------:|:--------:|
-| v0.7   | 2023-07-24   | 기본 버전           |   `CC BY-NC-SA` [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/)   |      예        |llama2 기반|
-| v0.8   | (2023-08-15) | Ko-LIMA 1.1         |   -    |      -         |          |
-| v0.9   | (2023-08-29) | 한국어 능력 향상     |   -    |      -         |          |
-| v1.0   | (2023-08-29) | 테디썸 요약기술 적용 |   -    |      -         |          |
-| v1.1   | -            | 성능 향상            |   -    |      -         |          |
+| Version| Release      | Contents           | License     | 비고     |
+|:------:|:------------:|--------------------|:------------:|:--------:|
+| v0.7   | 2023-07-24   | 기본 버전           |`CC BY-NC-SA`|llama2 기반|
+| v0.8   | (2023-08-15) | Ko-LIMA 1.1         |   -         |          |
+| v0.9   | (2023-08-29) | 한국어 능력 향상     |   -         |           |
+| v1.0   | (2023-08-29) | 테디썸 요약기술 적용 |   -         |           |
+| v1.1   | -            | 성능 향상            |   -         |          |
 
 ### Install
 
