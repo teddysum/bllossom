@@ -20,7 +20,7 @@ bllossom 의 특징들:
 * [Version Description](https://github.com/teddysum/bllossom/#version)
 * [Install](https://github.com/teddysum/bllossom/#install)
 
-### Version
+### Version Description
 | 버전   | 공개날짜(예정)    | 내용           | 공개   | 연구목적 허용   | 비고     |
 |:------:|:------------:|-----------------------|:------:|:--------------:|:--------:|
 | v0.7   | 2023-07-24   | 기본 버전             |   예   |      예        |llama2 기반|
