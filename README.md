@@ -16,6 +16,9 @@ bllossom 의 특징들:
 ## NEWS
 * [2023/07] We released bllossom v0.7. Check out the [demo](http://teddysum.ai/)
 
+## Models
+TBU
+
 ## Contents
 * [Version Description](https://github.com/teddysum/bllossom#version-description)
 * [Install](https://github.com/teddysum/bllossom/#install)
@@ -30,4 +33,18 @@ bllossom 의 특징들:
 | v1.1   | -            | 성능 향상            |   -         |          |
 
 ### Install
+TBU
 
+### Evaluation
+TBU
+
+## Publisher
+[Teddysum](http://teddysum.ai/)
+
+## Authors
+Teddysum, Inc. (함영균, 정용빈, 서현빈, 윤찬혁, 박재완, 이이슬)
+Yonsei Univ.(김한샘 교수 연구팀-김한샘, 강예지, 박서윤)
+MMLP Lab @ Seoul National University of Science and Technology (임경태 교수 연구팀-임경태, 최창수, 김상민, 임현석, 원인호)
+
+## Contact
+함영균(Younggyun Hahm), CEO of Teddysum. `hahmyg@teddysum.ai`
