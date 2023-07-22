@@ -44,7 +44,7 @@ TBU
 ## Authors
 * `Teddysum, Inc.` (함영균, 정용빈, 서현빈, 윤찬혁, 박재완, 이이슬)
 * `Yonsei Univ.` (김한샘 교수 연구팀-김한샘, 강예지, 박서윤)
-* `MMLP Lab` @ Seoul National University of Science and Technology (임경태 교수 연구팀-임경태, 최창수, 김상민, 임현석, 원인호)
+* `MMLP Lab`@SEOULTECH (임경태 교수 연구팀-임경태, 최창수, 김상민, 임현석, 원인호)
 
 ## Contact
 함영균(Younggyun Hahm), CEO of Teddysum. `hahmyg@teddysum.ai`
