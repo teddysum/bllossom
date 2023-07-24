@@ -18,6 +18,8 @@ bllossom 의 특징들:
 * [2023/07] We released bllossom v0.7. Check out the [demo](http://teddysum.ai/)
 
 ## Models
+### Backbone Model
+* Korean LLaMa Model (co-work with `MLP Lab`(임경태 교수 외))
 TBU
 
 ## Contents
