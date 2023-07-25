@@ -31,7 +31,8 @@ bllossom 의 특징들:
   - (Quantized Model은 추후 공개)
 * **Small amount of data**: 최소한의 instruction tuning dataset 사용. LIMA의 한국어화된 localized LIMA 데이터셋 사용(추후 공개)
 * **Framework**: transformers, bitsandbytes, peft, accelerate
-**v0.7 MODELS:**
+
+##### **v0.7 MODELS:**
 * **Llama-2-13b-chat-hf-4bit quantinization**
   - used GPU memory: 9401Mib
 * **Llama-2-13b-chat-hf-8bit quantinization**: 15647MiB
