@@ -23,11 +23,14 @@ bllossom 의 특징들:
 * [polyglot-ko-13b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
 
 ### Model
-backbone 모델에 대해 [Qlora](https://github.com/artidoro/qlora)를 이용하여 finetuning 하였음.
-4bit quantization 하여 llama-2, polyglot-ko에 대해 학습하였고, LIMA 데이터를 한국어로 번역하여 사용하였음(약 1000개 데이터)
 
-transformers, bitsandbytes, peft, accelerate 모듈을 이용하여 구현
-
+#### v0.7
+* **Backbone Model**: LLaMa-2, Polyglot-ko
+* **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 기반 미세조정(fine-tuning)
+  - 4bit 및 8bit 학습 수행
+  - (Quantized Model은 추후 공개)
+* **Small amount of data**: 최소한의 instruction tuning dataset 사용. LIMA의 한국어화된 localized LIMA 데이터셋 사용(추후 공개)
+* **Framework**: transformers, bitsandbytes, peft, accelerate
 
 #### 모델 GPU 점유량
 * **Llama-2-13b-chat-hf-4bit quantinization**: 9401Mib
@@ -60,8 +63,8 @@ TBU
 
 ## Authors
 * `Teddysum, Inc.` (함영균, 정용빈, 서현빈, 윤찬혁, 박재완, 이이슬)
-* `Yonsei Univ.` (김한샘 교수 연구팀-김한샘, 강예지, 박서윤)
-* `MLP Lab`@seoultech (임경태 교수 연구팀-임경태, 최창수, 김상민, 임현석, 원인호)
+* `Yonsei Univ.` [link](https://sites.google.com/view/hansaemkim/hansaem-kim) (김한샘 교수 연구팀-김한샘, 강예지, 박서윤)
+* `MLP Lab`@seoultech [link](https://sites.google.com/view/aailab) (임경태 교수 연구팀-임경태, 최창수, 김상민, 임현석, 원인호)
 
 ## Contact
 함영균(Younggyun Hahm), CEO of Teddysum. `hahmyg@teddysum.ai`
