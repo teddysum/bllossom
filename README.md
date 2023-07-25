@@ -23,6 +23,18 @@ bllossom 의 특징들:
 * [polyglot-ko-13b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
 
 ### Model
+backbone 모델에 대해 [Qlora](https://github.com/artidoro/qlora)를 이용하여 finetuning 하였음.
+4bit quantization 하여 llama-2, polyglot-ko에 대해 학습하였고, LIMA 데이터를 한국어로 번역하여 사용하였음(약 1000개 데이터)
+
+transformers, bitsandbytes, peft, accelerate 모듈을 이용하여 구현
+
+
+#### 모델 GPU 점유량
+* **Llama-2-13b-chat-hf-4bit quantinization**: 9401Mib
+* **Llama-2-13b-chat-hf-8bit quantinization**: 15647MiB
+* **polyglot-ko-12.8b-4bit quantinization**: 9107Mib
+* **polyglot-ko-12.8b-8bit quantinization**: 14979MiB
+  
 
 ## Contents
 * [Version Description](https://github.com/teddysum/bllossom#version-description)
