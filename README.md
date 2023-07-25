@@ -31,7 +31,8 @@ bllossom 의 특징들:
 * **Backbone Model**: LLaMa-2, Polyglot-ko
 * **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 적용
   - (Quantized Model은 추후 공개)
-* **Small amount of data**: 최소한의 instruction tuning dataset 사용. LIMA의 한국어화된 localized LIMA 데이터셋 사용(추후 공개)
+* **Small amount of data**: 최소한의 instruction tuning dataset 사용. 
+  - LIMA의 한국어화된 localized LIMA 데이터셋 사용(추후 공개)
 * **Framework**: transformers, bitsandbytes, peft, accelerate
 
 ##### **v0.7 MODELS:**
