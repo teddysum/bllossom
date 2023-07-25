@@ -2,7 +2,7 @@
 
 # bllossom
 
-| [Demo](http://teddysum.ai/) | [Homepage](http://teddysum.ai/) |
+| [Demo](http://121.134.238.173:7862/) | [Homepage](http://teddysum.ai/) |
 
 **Korean LLM made by [Teddysum](http://teddysum.ai/)**
 
@@ -15,12 +15,14 @@ bllossom 의 특징들:
 
 ## NEWS
 * [2023/07] We released the backbone model LLaMa-v2-korean Model.
-* [2023/07] We released bllossom v0.7. Check out the [demo](http://teddysum.ai/)
+* [2023/07] We released bllossom v0.7. Check out the [demo](http://121.134.238.173:7862/)
 
 ## Models
 ### Backbone Model
-* Korean LLaMa Model (co-work with `MLP Lab`(임경태 교수 외))
-TBU
+* Korean LLaMa Model (not yet published, co-work with `MLP Lab`(임경태 교수 외))
+* [polyglot-ko-13b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
+
+### Model
 
 ## Contents
 * [Version Description](https://github.com/teddysum/bllossom#version-description)
@@ -29,7 +31,7 @@ TBU
 ### Version Description
 | Version| Release      | Contents           | License     | 비고     |
 |:------:|:------------:|--------------------|:------------:|:--------:|
-| v0.7   | 2023-07-24   | 기본 버전           |`CC BY-NC-SA`|llama2 기반|
+| v0.7   | 2023-07-24   | 기본 버전           |`CC BY-NC-SA`|llama2, polyglot 기반|
 | v0.8   | (2023-08-15) | Ko-LIMA 1.1         |   -         |          |
 | v0.9   | (2023-08-29) | 한국어 능력 향상     |   -         |           |
 | v1.0   | (2023-08-29) | 테디썸 요약기술 적용 |   -         |           |
