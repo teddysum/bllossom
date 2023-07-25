@@ -19,7 +19,7 @@ bllossom 의 특징들:
 
 ## Models
 ### Backbone Model
-* Korean LLaMa Model (not yet published, co-work with `MLP Lab`(임경태 교수 외))
+* Korean LLaMa Model (not published yet, co-work with `MLP Lab`(임경태 교수 외))
 * [polyglot-ko-13b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
 
 ### Model
