@@ -38,7 +38,7 @@ bllossom 의 특징들:
 * **Framework**: transformers, bitsandbytes, peft, accelerate
 
 ##### **v0.7 MODELS:**
-* **Llama-2-13b-chat-hf-4bit quantinization** [[full_model_link]](https://huggingface.co/Teddysum/bllossom-Llama-2-13b-chat-hf-lima-ko-4bit/settings) [[adapter_link]](https://huggingface.co/Teddysum/bllossom-Llama-2-13b-chat-hf-lima-ko-adapter-4bit/settings)
+* **Llama-2-13b-chat-hf-4bit quantinization** [[full_model_link]](https://huggingface.co/Teddysum/bllossom-Llama-2-13b-chat-hf-lima-ko-4bit) [[adapter_link]](https://huggingface.co/Teddysum/bllossom-Llama-2-13b-chat-hf-lima-ko-adapter-4bit)
   - used GPU memory: 9401Mib
 * **Llama-2-13b-chat-hf-8bit quantinization** [[full_model_link(TBU)]](http://TBU)
   - used GPU memory: 15647MiB
