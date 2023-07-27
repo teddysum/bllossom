@@ -46,6 +46,11 @@ bllossom 의 특징들:
   - used GPU memory: 9107Mib
 * **polyglot-ko-12.8b-8bit quantinization** [[full_model_link(TBU)]](http://TBU)
   - used GPU memory: 14979MiB
+
+  학습시 batch 마다 할당되는 gpu 메모리는 모델의 input, output 길이 제한에 따라 상이
+   - 4bit max token 2048 기준(input 1024, output 1024) batch당 약 5GB
+   - 4bit max token 4096 기준(input 2048, output 2048) batch당 약 10GB
+  torch_dtype=torch.bfloat16 로 업로드 시 13b, 12.8b 모델 각 30~40GB 할당
   
 
 ## Contents
