@@ -62,12 +62,18 @@ bllossom 의 특징들:
 | v1.1   | -            | 성능 향상            |   -         |          |
 
 ### Install
+일반적인 pytorch 딥러닝 환경에서 아래 모듈 추가 설치
 ```
-#pip install gradio
-#pip install sentencepiece
-#pip install evaluate
-#pip install scikit-learn
-#pip install wandb
+pip install gradio
+pip install sentencepiece
+pip install evaluate
+pip install scikit-learn
+pip install wandb
+
+pip install -q -U bitsandbytes
+pip install -q -U git+https://github.com/huggingface/transformers.git
+pip install -q -U git+https://github.com/huggingface/peft.git
+pip install -q -U git+https://github.com/huggingface/accelerate.git
 ```
 
 ### Evaluation
