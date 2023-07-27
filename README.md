@@ -62,7 +62,13 @@ bllossom 의 특징들:
 | v1.1   | -            | 성능 향상            |   -         |          |
 
 ### Install
-TBU
+```
+#pip install gradio
+#pip install sentencepiece
+#pip install evaluate
+#pip install scikit-learn
+#pip install wandb
+```
 
 ### Evaluation
 TBU
