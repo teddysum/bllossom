@@ -76,6 +76,8 @@ pip install -q -U git+https://github.com/huggingface/peft.git
 pip install -q -U git+https://github.com/huggingface/accelerate.git
 ```
 
+또는 환경 설정된 docker 이용 [download(TBU)]()
+
 ### Evaluation
 TBU
 
