@@ -1,0 +1,44 @@
+python qlora_polyglot.py \
+    --model_name_or_path EleutherAI/polyglot-ko-12.8b \
+    --output_dir ./output/bllossom_polyglot-12.8b_0725 \
+    --logging_steps 10 \
+    --save_strategy steps \
+    --data_seed 42 \
+    --save_steps 200 \
+    --save_total_limit 40 \
+    --evaluation_strategy steps \
+    --eval_dataset_size 1 \
+    --max_eval_samples 1000 \
+    --per_device_eval_batch_size 1 \
+    --max_new_tokens 256 \
+    --dataloader_num_workers 4 \
+    --group_by_length \
+    --logging_strategy steps \
+    --remove_unused_columns False \
+    --do_train \
+    --lora_r 64 \
+    --lora_alpha 16 \
+    --lora_modules all \
+    --double_quant \
+    --quant_type nf4 \
+    --bf16 \
+    --bits 4 \
+    --warmup_ratio 0.03 \
+    --lr_scheduler_type constant \
+    --gradient_checkpointing \
+    --dataset ../data/ko_lima_by_teddysum_1.0.jsonl \
+    --source_max_len 1024 \
+    --target_max_len 1024 \
+    --per_device_train_batch_size 4 \
+    --gradient_accumulation_steps 8 \
+    --max_steps 200 \
+    --eval_steps 1000 \
+    --learning_rate 0.0002 \
+    --adam_beta2 0.999 \
+    --max_grad_norm 0.3 \
+    --lora_dropout 0.05 \
+    --weight_decay 0.0 \
+    --seed 0 \
+#    --report_to wandb \
+#    --use_auth_token \
+#    --push_to_hub
