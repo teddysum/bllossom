@@ -14,8 +14,9 @@ bllossom 의 특징들:
 * **Automated Writing Evaluation**: AI 글쓰기 자동 평가 (미적용)
 
 ## NEWS
-* [2023/07] We released bllossom v0.7, based on polyglot-ko. Check out the [demo](http://121.134.238.181:5050/)
 * [2023/08] We released bllossom v0.9, based on llama-2. Check out the [demo](http://121.134.238.173:7862/)
+* [2023/07] We released bllossom v0.7, based on polyglot-ko. Check out the [demo](http://121.134.238.181:5050/)
+
 
 ## Models
 ### Backbone Model
