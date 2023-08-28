@@ -2,7 +2,7 @@
 
 # bllossom
 
-| [Demo1](http://121.134.238.181:5050/){: target="_blank"} | [Demo2](http://121.134.238.173:7862/){: target="_blank"} | [Homepage](http://teddysum.ai/) |
+| [Demo](http://121.134.238.173:7862/) | [Homepage](http://teddysum.ai/) |
 
 **Korean LLM made by [Teddysum](http://teddysum.ai/)**
 
@@ -14,9 +14,8 @@ bllossom 의 특징들:
 * **Automated Writing Evaluation**: AI 글쓰기 자동 평가 (미적용)
 
 ## NEWS
-* [2023/07] We released the backbone model LLaMa-v2-korean Model.
-* [2023/07] We released bllossom v0.7. Check out the [demo](http://121.134.238.173:7862/){: target="_blank"}
-* [2023/08] We released bllossom v0.9. Check out the [demo](http://121.134.238.181:5050/){: target="_blank"}
+* [2023/07] We released bllossom v0.7, based on polyglot-ko. Check out the [demo](http://121.134.238.181:5050/)
+* [2023/08] We released bllossom v0.9, based on llama-2. Check out the [demo](http://121.134.238.173:7862/)
 
 ## Models
 ### Backbone Model
@@ -25,17 +24,27 @@ bllossom 의 특징들:
 
 ### Model
 
+#### bllossom v0.9
+
+<img src="./v07_example.png" width="100%" height="100%">
+
+<img src="./v07_example2.png" width="100%" height="100%">
+
+* **Backbone Model**: LLaMa-2 (한국어 능력 강화 적용)
+* **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 적용
+* **Small amount of data**: 최소한의 instruction tuning dataset 사용. 
+* **Framework**: transformers, bitsandbytes, peft, accelerate
+
+
 #### bllossom v0.7
 
 <img src="./v07_example.png" width="100%" height="100%">
 
 <img src="./v07_example2.png" width="100%" height="100%">
 
-* **Backbone Model**: LLaMa-2, Polyglot-ko
+* **Backbone Model**: Polyglot-ko
 * **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 적용
-  - (Quantized Model은 추후 공개)
 * **Small amount of data**: 최소한의 instruction tuning dataset 사용. 
-  - LIMA의 한국어화된 localized LIMA 데이터셋 사용(추후 공개)
 * **Framework**: transformers, bitsandbytes, peft, accelerate
 
 ##### **v0.7 MODELS:**
