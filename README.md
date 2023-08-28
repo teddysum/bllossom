@@ -2,7 +2,7 @@
 
 # bllossom
 
-| [Demo1](http://121.134.238.181:5050/) | [Demo2](http://121.134.238.173:7862/) | [Homepage](http://teddysum.ai/) |
+| [Demo1](http://121.134.238.181:5050/){: target="_blank"} | [Demo2](http://121.134.238.173:7862/){: target="_blank"} | [Homepage](http://teddysum.ai/) |
 
 **Korean LLM made by [Teddysum](http://teddysum.ai/)**
 
@@ -15,8 +15,8 @@ bllossom 의 특징들:
 
 ## NEWS
 * [2023/07] We released the backbone model LLaMa-v2-korean Model.
-* [2023/07] We released bllossom v0.7. Check out the [demo](http://121.134.238.173:7862/)
-* [2023/08] We released bllossom v0.9. Check out the [demo](http://121.134.238.181:5050/)
+* [2023/07] We released bllossom v0.7. Check out the [demo](http://121.134.238.173:7862/){: target="_blank"}
+* [2023/08] We released bllossom v0.9. Check out the [demo](http://121.134.238.181:5050/){: target="_blank"}
 
 ## Models
 ### Backbone Model
