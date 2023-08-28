@@ -31,6 +31,8 @@ bllossom 의 특징들:
 
 <img src="./v09_example2.png" width="40%" height="40%">
 
+<img src="./v09_example3.png" width="40%" height="40%">
+
 * **Backbone Model**: LLaMa-2 (한국어 능력 강화 적용)
 * **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 적용
 * **Small amount of data**: 최소한의 instruction tuning dataset 사용. 
