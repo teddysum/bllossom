@@ -70,10 +70,10 @@ bllossom 의 특징들:
 ### Version Description
 | Version| Release      | Contents           | License     | 비고     |
 |:------:|:------------:|--------------------|:------------:|:--------:|
-| v0.7   | 2023-07-24   | 기본 버전           |`CC BY-NC-SA`|llama2, polyglot 기반|
+| v0.7   | 2023-07-24   | 기본 버전           |`CC BY-NC-SA`|polyglot 기반|
 | v0.8   | (2023-08-15) | Ko-LIMA 1.1         |   -         |          |
-| v0.9   | (2023-08-29) | 한국어 능력 향상     |   -         |           |
-| v1.0   | (2023-08-29) | 테디썸 요약기술 적용 |   -         |           |
+| v0.9   | (2023-08-29) | 한국어 능력 향상     |   -         |llama2 기반, 다국어|
+| v1.0   | (2023-09-15) | 테디썸 요약기술 적용 |   -         |           |
 | v1.1   | -            | 성능 향상            |   -         |          |
 
 ### Install
@@ -100,7 +100,7 @@ TBU
 [Teddysum](http://teddysum.ai/)
 
 ## Authors
-* `Teddysum, Inc.` (함영균, 정용빈, 서현빈, 윤찬혁, 박재완, 이이슬)
+* `Teddysum, Inc.` (함영균, 정용빈, 윤찬혁, 박재완, 이이슬, 서현빈)
 * `Yonsei Univ.` [link](https://sites.google.com/view/hansaemkim/hansaem-kim) (김한샘 교수 연구팀-김한샘, 강예지, 박서윤)
 * `MLP Lab`@seoultech [link](https://sites.google.com/view/aailab) (임경태 교수 연구팀-임경태, 최창수, 김상민, 임현석, 원인호)
 
