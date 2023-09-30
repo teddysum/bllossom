@@ -2,7 +2,7 @@
 
 # bllossom
 
-| [Demo](http://121.134.238.173:7862/) | [Homepage](http://teddysum.ai/) |
+| [Demo](https://eb710d82f49644fae5.gradio.live/) | [Homepage](http://teddysum.ai/) |
 
 **Korean LLM made by [Teddysum](http://teddysum.ai/)**
 
@@ -10,10 +10,11 @@ bllossom 의 특징들:
 
 * **Lightweight**: 경량화된 모델과 학습방법 적용
 * **Localization**: 한국어/한국문화에 특화된 한국어 LLM
-* **Summarization**: 대화 이해와 요약에 특화 (미적용)
-* **Automated Writing Evaluation**: AI 글쓰기 자동 평가 (미적용)
-
+* **Summarization**: 대화 이해와 요약에 특화
+* **Automated Writing Evaluation**: AI 글쓰기 자동 평가
+* 
 ## NEWS
+* [2023/08] We released bllossom v1.0, Check out the [demo](https://eb710d82f49644fae5.gradio.live/)
 * [2023/08] We released bllossom v0.9, based on llama-2. Check out the [demo](http://121.134.238.181:7861/)
 * [2023/07] We released bllossom v0.7, based on polyglot-ko. Check out the [demo](http://121.134.238.181:5050/)
 
@@ -21,18 +22,10 @@ bllossom 의 특징들:
 ## Models
 ### Backbone Model
 * Korean-improved LLaMa-2
-* [polyglot-ko-13b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
 
 ### Model
 
 #### bllossom v0.9
-
-<img src="./v09_example.png" width="40%" height="40%">
-
-<img src="./v09_example2.png" width="40%" height="40%">
-
-<img src="./v09_example3.png" width="40%" height="40%">
-
 * **Backbone Model**: LLaMa-2 (한국어 능력 강화 적용)
 * **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 적용
 * **Small amount of data**: 최소한의 instruction tuning dataset 사용. 
@@ -46,11 +39,6 @@ bllossom 의 특징들:
 
 
 #### bllossom v0.7
-
-<img src="./v07_example.png" width="100%" height="100%">
-
-<img src="./v07_example2.png" width="100%" height="100%">
-
 * **Backbone Model**: Polyglot-ko
 * **Low-bit Quantization**: 기존 32bit backbone 모델에 양자화 기술(quantization) 접목된 [qlora](https://github.com/artidoro/qlora) 적용
 * **Small amount of data**: 최소한의 instruction tuning dataset 사용. 
@@ -73,13 +61,12 @@ bllossom 의 특징들:
 * [Install](https://github.com/teddysum/bllossom/#install)
 
 ### Version Description
-| Version| Release      | Contents           | License     | 비고     |
-|:------:|:------------:|--------------------|:------------:|:--------:|
-| v0.7   | 2023-07-24   | 기본 버전           |`CC BY-NC-SA`|polyglot 기반|
-| v0.8   | (2023-08-15) | Ko-LIMA 1.1         |   -         |          |
-| v0.9   | (2023-08-29) | 한국어 능력 향상     |   -         |llama2 기반, 다국어|
-| v1.0   | (2023-09-15) | 테디썸 요약기술 적용 |   -         |           |
-| v1.1   | -            | 성능 향상            |   -         |          |
+| Version| Release     | Contents        | License     | 비고     |
+|:------:|:-----------:|-----------------|:------------:|:--------:|
+| v0.7   | 2023-07-24 | 기본 버전        |`CC BY-NC-SA`|polyglot 기반|
+| v0.9   | 2023-08-29 | Ko-LIMA 1.1      |`CC BY-NC-SA`|llama2 기반|
+| v1.0   | 2023-09-30 | 한국어 능력 향상 |`CC BY-NC-SA`|llama2 기반, 다국어|
+
 
 ### Install
 일반적인 pytorch 딥러닝 환경에서 아래 모듈 추가 설치
