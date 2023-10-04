@@ -2,7 +2,7 @@
 
 # bllossom
 
-| [Demo](https://eb710d82f49644fae5.gradio.live/) | [Homepage](http://teddysum.ai/) |
+| [Demo](https://82c4684d3e74e280b0.gradio.live/) | [Homepage](http://teddysum.ai/) |
 
 **Korean LLM made by [Teddysum](http://teddysum.ai/)**
 
@@ -14,7 +14,7 @@ bllossom 의 특징들:
 * **Automated Writing Evaluation**: AI 글쓰기 자동 평가
 * 
 ## NEWS
-* [2023/08] We released bllossom v1.0, Check out the [demo](https://eb710d82f49644fae5.gradio.live/)
+* [2023/08] We released bllossom v1.0, Check out the [demo](https://82c4684d3e74e280b0.gradio.live/)
 * [2023/08] We released bllossom v0.9, based on llama-2. Check out the [demo](http://121.134.238.181:7861/)
 * [2023/07] We released bllossom v0.7, based on polyglot-ko. Check out the [demo](http://121.134.238.181:5050/)
 
